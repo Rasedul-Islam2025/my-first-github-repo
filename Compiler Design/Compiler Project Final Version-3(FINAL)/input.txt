@@ -1,0 +1,113 @@
+import trycatch
+import math
+import time
+
+Main:
+{
+	# Variable declaration
+	CHAR p,q,r;
+	INTEGER a,b,c;
+
+	IF(5>2)
+	{
+		15-30;
+	}
+	ELSE
+	{
+		20+9;
+	}
+
+	# Nested IF ELSE
+	IF (3>1)
+	{
+		IF(5>2)
+		{
+			5+2;
+		}
+		ELSE
+		{
+			5-2;
+		}
+	}
+	ELSE 
+	{
+		IF(15>10)
+		{
+			25-20;
+		}
+		ELSE
+		{
+			25+20;
+		}
+	}
+
+	# Class Declaration
+	CLASS A
+	{
+		a=10;
+	}
+	CLASS B
+	{
+		b=20;
+	}
+
+	# Inheritance
+	CLASS C : B
+	{
+		c=40;
+	}
+
+	# TRY CATCH Block
+	TRY
+	{
+		10/0;
+	}
+	CATCH(10)
+	{
+		15+11;
+	}
+
+	# Function
+	FUNCTION A (10)
+	{
+		c = a + b;
+	}
+
+	# For Loop
+	FOR (2,18,3)
+	{
+		4+8;
+	}
+
+	# While Loop
+	WHILE (2<5)
+	{
+		10+13;
+	}
+
+	# Switch Case
+	SWITCH (2)
+	{
+		CASE 1: 10+20;
+		CASE 2: 33-19;
+		CASE 3: 9-15;
+		DEFAULT : 22-15;
+	}
+
+	# Variable assignment
+	a=60;
+	b=30;
+	c=0;
+	c=a+b;
+	PRINTFUNCTION(c);
+
+	# Math Functions
+	FACTORIAL(5);
+	ODDEVEN(10);
+	LOG(100);
+	3^5;
+	SIN(60);
+
+	ARRAY INTEGER N (10);
+	ARRAY CHAR C (5);
+}

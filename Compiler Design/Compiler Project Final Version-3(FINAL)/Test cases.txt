@@ -1,0 +1,123 @@
+1.heading check--
+  
+ import any
+ ex:import stdio
+    import string
+2.
+
+Main:
+{
+    SIN(30);
+    FACTORIAL(5);
+    a = 10;
+}
+
+3.Arithmetic with Modulo
+Main:
+{
+10 % 3;
+}
+
+4.IF Statement
+Main:
+{
+IF (5 > 3) {
+5 + 2;
+}
+}
+
+5.IF-ELSE statements
+
+Main:
+{
+IF (2 > 5) {
+1 + 1;
+} ELSE {
+3 + 4;
+}
+}
+
+6.While loop
+
+
+Main:
+{
+WHILE (1 < 3) {
+2 + 2;
+}
+}
+
+
+7.For loop execution
+Main:
+{
+FOR (1, 4, 1) {
+1 + 1;
+}
+}
+
+
+8.Switch-cases:
+Main:
+{
+SWITCH (2) {
+CASE 1: 1+1;
+CASE 2: 2+2;
+DEFAULT: 0+0;
+}
+}
+
+
+9.Factoriral-
+Main:
+{
+FACTORIAL(5);
+}
+
+
+10.Even_odd
+Main:
+{
+ODDEVEN(7);
+}
+
+11--CLASS Declaration
+
+
+Main:
+{
+CLASS A {
+1+1;
+}
+}
+
+12.Class Inherit
+
+Main:
+{
+CLASS B : A {
+2+2;
+}
+}
+
+
+13 – TRY CATCH
+ 
+Main:
+{
+TRY {
+1+1;
+} CATCH (5) {
+2+2;
+}
+}
+
+14. ingle Line Comment
+
+#This is a comment
+Main:
+{
+2+3;
+}
+
+
